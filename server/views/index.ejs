@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Styles -->
+    <%-styles%>
+    <script>
+      <%- 'window.__STATE__ = ' + state + ';' %>
+    </script>
+  </head>
+  <body>
+    <div id="app"><%-app%></div>
+    <%-cssHash%>
+    <%-js%>
+  </body>
+</html>
